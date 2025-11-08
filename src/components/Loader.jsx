@@ -1,0 +1,13 @@
+import React from 'react'
+
+const Loader = () => {
+  return (
+    <div className='flex justify-center items-center h-screen bg-gray-100'>
+        <h1 className='text-3xl font-bold text-emerald-400 animate-pulse'>
+            Loading...
+        </h1>
+    </div>
+  )
+}
+
+export default Loader
